@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Banner Section Style*/
+.banner-container{
+    background: linear-gradient(90.00deg, rgb(9, 9, 9) 2.884%,rgba(16, 16, 16, 0) 101.034%),url('assets/hero-bg.png');
+    width:1360px;
+    height:650px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    
+}
+
+.banner-content{
+    width:730px; 
+    text-align: center;
+}
+
+.banner-title-1{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.banner-title-2{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0%;
+    
+}
+
+.banner-description{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    
+}
+
+.banner-btn{
+    padding: 16px 28px 16px 28px;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    border: none;
+    margin-top: 25px;
+} 
+
+.banner-btn:hover{
+    background:rgb(255, 255, 255) ;
+    color: rgb(82, 195, 3);
+    border: 1px solid rgb(82, 195, 3) ;
+}
+
+/* Card-Box Style*/
+
+.card-box{
+    width: 940px;
+    height: 705px;
+    margin: 120px auto;
+    text-align: center;
+    border: 2px dotted grey;
+    border-radius: 8px;
+
+}
+
+.card-box-title{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+
+}
+
+.card-box-description{
+    margin: 15px auto;
+    width:490px;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.cards{
+    display: flex;
+}
+.card-img{
+    margin-top: 40px;
+    width:300px;
+    height:200px;
+    border: 2px dotted grey;
+    
+}
+
+.card-btn{
+    padding: 10px 28px 10px 28px;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0%;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    border: none;
+    margin-top: 30px;
+
+}
+
+.card-btn:hover{
+    background:rgb(16, 16, 16) ;
+    color: white;
+    border: 1px solid white ;
+
+}
+
+.card-title{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 47px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card-description{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card-box-btn{
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    padding: 16px 28px 16px 28px;
+    border: none;
+    margin-top: 55px;
+
+}
+
+.card-box-btn:hover{
+    background:rgb(255, 255, 255) ;
+    color: rgb(82, 195, 3);
+    border: 1px solid rgb(82, 195, 3) ;
+}
+/* About us section*/
+
+.about-us{
+    display: flex;
+    align-items: center;
+   
+}
+
+.about-us-img{
+    width:680px;
+    height: 475px;
+}
+
+.about-us-content{
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.about-us-title-1{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.about-us-description{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    margin-top: 14px;
+}
+
+.about-us-title-2{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    margin-top: 50px;
+}
+
+.about-us-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    margin-top: 30px;
+ }
+
+ /* Card Section Style*/
+
+ .card-container{
+    width: 300px;
+    margin: 200px auto;
+    text-align: center;
+   
+ }
+
+ .card-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+ .card-extra{
+    border: 2px dotted grey;
+    border-radius: 8px;
+ }
+ 
+ .card-img-extra{
+    width:300px;
+    height:200px;
+ }
+
+ /* footer section style*/
+
+ .social-container{
+    margin-bottom: 50px;
+ }
